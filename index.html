@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Jiabin Liang</title>
+
+  <meta name="author" content="Jiabin Liang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:68%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Jiabin Liang</name>
+                  </p>
+                  <p> I am a fulltime researcher at <a href="https://sail.sea.com/">Sea AI Lab</a>. I work on computer graphic and machine learning.
+                    Previously, I was the leader of <a href="https://enterprise.dji.com/dji-terra">DJI Terra</a>, the best and fastest photogrammetry software in the world.
+                    I got my Bachelor degrees from <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a> and Master from <a href="https://artsetmetiers.fr/en">ENSAM, Arts et Métiers ParisTech</a>.
+
+                    <br>
+                    <br>
+                    I am looking for PhD, Master, and Undergraduate students join my project. Please drop me
+                    an email if you are interested.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:liangjb@sea.com">Email</a> &nbsp/&nbsp
+                    <!--a href="data/bio.md">Bio</a--> <!--&nbsp/&nbsp-->
+                    <a href="https://scholar.google.com/citations?user=FkoLL7gAAAAJ&hl=en">Google Scholar</a> 
+                    <!-- &nbsp/&nbsp -->
+                    <!-- <a href="https://calendly.com/xiangyuxu/xiangyu-s-open-office-hour">Chat</a> -->
+                    <!-- &nbsp/&nbsp -->
+                    <!-- <a href="https://github.com/xuxy09">Github</a> -->
+                  </p>
+
+                </td>
+                <!--td style="padding:2.5%;width:20%;max-width:40%">
+                  <a href="images/profile_xxy.jpg"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="images/profile_xxy.jpg" class="hoverZoomLink"></a>
+                </td-->
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Selected Work</heading>
+                  
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <table
+            style="width:100%;border:1px;border-spacing:1px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <!--infnerf-->
+              <tr onmouseout="infnerf_stop()" onmouseover="infnerf_start()">
+                <!--td style="padding:20px;width:25%;vertical-align:middle"-->
+                <td style="padding:20px;width:25%;vertical-align:top" height="160">
+                  <div>
+                    <div class="two" id='infnerf_image'>
+                      <video  width=100% height=100% muted autoplay loop>
+                      <source src="video/winworld_small.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video></div>
+                    <!-- <div class="two" id='tog23sewformer_image'>
+                      <img src='images/tog23sewformer_after.mp4' width="160">
+                    </div> -->
+                    <img src='images/infnerf.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function infnerf_start() {
+                      document.getElementById('infnerf_image').style.opacity = "1";
+                    }
+
+                    function infnerf_stop() {
+                      document.getElementById('infnerf_image').style.opacity = "0";
+                    }
+                    infnerf_stop()
+                  </script>
+                </td>
+                <td width="90%" valign="middle">
+                  <a href="https://jiabinliang.github.io/InfNeRF.io">
+                    <papertitle>Towards Infinite Scale NeRF Rendering with O(log n) Space Complexity</papertitle>
+                  </a>
+                  <br>
+                  <strong>Jiabin Liang</strong>, Lanqing Zhang, Zuoran Zhao, Xiangyu Xu
+                  <br>
+                  <!--em>ACM Transactions on Graphics (<strong>SIGGRAPH Asia</strong>), 2023</em-->
+                  <br>
+                  <a href="https://arxiv.org/abs/2403.14376">Paper</a>
+                  |
+                  <a href="https://github.com/sail-sg/InfNeRF">Code</a>
+                  <p>We utilize the HLoD technique on NeRF to extend its capabilities towards infinity.</p>
+                </td>
+              </tr>
+
+              <!-- TOG23 Sewformer -->
+              <tr onmouseout="tog23sewformer_stop()" onmouseover="tog23sewformer_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div>
+                    <div class="two" id='tog23sewformer_image'><video  width=100% height=100% muted autoplay loop>
+                      <source src="images/tog23sewformer_after.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video></div>
+                    <!-- <div class="two" id='tog23sewformer_image'>
+                      <img src='images/tog23sewformer_after.mp4' width="160">
+                    </div> -->
+                    <img src='images/tog23sewformer_before.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function tog23sewformer_start() {
+                      document.getElementById('tog23sewformer_image').style.opacity = "1";
+                    }
+
+                    function tog23sewformer_stop() {
+                      document.getElementById('tog23sewformer_image').style.opacity = "0";
+                    }
+                    tog23sewformer_stop()
+                  </script>
+                </td>
+                <td width="90%" valign="middle">
+                  <a href="https://sewformer.github.io/">
+                    <papertitle>Towards Garment Sewing Pattern Reconstruction from a Single Image</papertitle>
+                  </a>
+                  <br>
+                  Lijuan Liu*, Xiangyu Xu*, Zhijie Lin*, <strong>Jiabin Liang</strong>*, Shuicheng Yan
+                  <br>
+                  <em>ACM Transactions on Graphics (<strong>SIGGRAPH Asia</strong>)</em>, 2023
+                  <br>
+                  <a href="http://arxiv.org/abs/2311.04218">Paper</a>
+                  |
+                  <a href="https://sewformer.github.io/">Code</a>
+                  |
+                  <a href="https://www.newscientist.com/article/2404358-ai-can-figure-out-sewing-patterns-from-a-single-photo-of-clothing/">New Scientist</a>
+                  <p>We present the first solution for sewing pattern reconstruction from a single image.</p>
+                </td>
+              </tr>
+
+              <!--Terra-->
+              <tr onmouseout="terra_stop()" onmouseover="terra_start()">
+                <!--td style="padding:20px;width:25%;vertical-align:middle"-->
+                <td style="padding:20px;width:25%;vertical-align:top" height="160">
+                  <div>
+                    <div class="two" id='terra_video'>
+                      <video  width=100% height=100% muted autoplay loop>
+                      <source src="video/terra.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video></div>
+                    <!-- <div class="two" id='tog23sewformer_image'>
+                      <img src='images/tog23sewformer_after.mp4' width="160">
+                    </div> -->
+                    <img id='terra_image' src='images/terra.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function terra_start() {
+                      document.getElementById('terra_video').style.opacity = "1";
+                      document.getElementById('terra_image').style.opacity = "0";
+                    }
+
+                    function terra_stop() {
+                      document.getElementById('terra_video').style.opacity = "0";
+                      document.getElementById('terra_image').style.opacity = "1";
+                    }
+                    terra_stop()
+                  </script>
+                </td>
+                <td width="90%" valign="middle">
+                  <a href="https://enterprise.dji.com/dji-terra">
+                    <papertitle>DJI Terra: the best and fastest photogrammetry software in the world</papertitle>
+                  </a>
+                  <br>
+                  <strong>Jiabin Liang</strong>, et al.
+                  <br>
+                  1st Prize of 2022 Shenzhen Scientific and Technological Progress Award
+                  <br>
+                  2rd Prize of 2021 Science and Technology progress award of CSGPC<br>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!--table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Professional Services</heading>
+                  <p>
+                    Area Chair: CVPR 2023, BMVC 2023, CVPR 2024, ICLR 2024, ECCV 2024
+                    <br>
+                    Session Chair: SIGGRAPH Asia 2023
+                    <br>
+                    Senior Program Committee: IJCAI 2021, AAAI 2023, AAAI 2024
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table-->
+
+          <!--table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Students/Interns</heading>
+                  <p>
+                    <a href="https://sg.linkedin.com/in/stefan-putra-lionar">Stefan Lionar</a>, PhD (Sea AI Lab and NUS, 2023-present)
+                    <br>
+                    <a href="https://ming1993li.github.io/">Ming Li</a>, Intern (Sea AI Lab, 2023)
+                    <br>
+                    <a href="https://github.com/Hhhhhhao">Hao Chen</a>, Master (CMU, 2019-2020), Now: PhD at CMU
+                    <br>
+                    <a href="https://jojoml.github.io/">Muchen Li</a>, Intern (SenseTime, 2018-2019), Now: PhD at UBC
+                    <br>
+                    Yongrui Ma, Intern (SenseTime, 2018-2019), Now: PhD at CUHK
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table-->
+
+          <!--table width="30%" align="center" border="0" cellpadding="20">
+            <tbody>
+
+              <script type='text/javascript' id='clustrmaps'
+                src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=5T1sl0e94RWwdrLSEZTU3o1x6Bal583UadvbPPety1o&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+            </tbody>
+          </table-->
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:center;font-size:small;">
+                    Website template from <a href="https://github.com/jonbarron/jonbarron_website">here</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
